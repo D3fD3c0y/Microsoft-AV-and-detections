@@ -7,7 +7,7 @@
 - [Malware naming convention](#Malware-naming-convention)
 - [How Microsoft identifies malware and potentially unwanted applications](#How-Microsoft-identifies-malware-and-potentially-unwanted-applications)
 - [Microsoft Event ID related to MS Windows Defender](#Microsoft-Event-ID-related-to-MS-Windows-Defender)
-- [Understanding Microsoft Malware detail](#Understanding-Microsoft-Malware-detail)
+- [Understanding Microsoft Malware detection details](#Understanding-Microsoft-Malware-detection-details)
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -347,6 +347,7 @@ Microsoft uses specific categories and the category definitions to classify soft
 <p>&nbsp;</p>
 
 ## Understanding Microsoft Malware detection details
+
 - [Detection Mode](#Detection-Mode)
 -	[Threat actions](#Threat-actions)
 
