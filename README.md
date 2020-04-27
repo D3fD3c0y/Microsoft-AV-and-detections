@@ -5,6 +5,13 @@
 
 # Table of content
 - [Malware naming convention](#Malware-naming-convention)
+
+
+
+
+
+## Malware naming convention
+
  - [The format](#The-format)
  - [Type](#Type)
  - [Platforms](#Platforms)
@@ -13,20 +20,6 @@
  - [Family](#Family)
  - [Variant letter](#Variant-letter)
  - [Suffixes](#Suffixes)
-
-
-
-
-## Malware naming convention
-
-- The format
-- Type
--	Platforms
--	Scripting languages
--	Macros
--	Family
--	Variant letter
--	Suffixes
 
 ### The format
 The format used is the following:
