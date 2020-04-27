@@ -6,7 +6,7 @@
 # Table of content
 - [Malware naming convention](#Malware-naming-convention)
 - [How Microsoft identifies malware and potentially unwanted applications](#How-Microsoft-identifies-malware-and-potentially-unwanted-applications)
-
+- [Microsoft Event ID related to MS Windows Defender](#Microsoft-Event-ID-related-to-MS-Windows-Defender)
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -294,3 +294,46 @@ Microsoft uses specific categories and the category definitions to classify soft
 -	Poor industry reputation: Software that trusted security providers detect with their security products. The security industry is dedicated to protecting customers and improving their experiences. Microsoft and other organizations in the security industry continuously exchange knowledge about files we have analyzed to provide users with the best possible protection.
 
 2020-04-27 https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/criteria
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+## Microsoft Event ID related to MS Windows Defender
+
+**For Windows 8.1, look into C:\Windows\System32\winevt\Logs\System.evtx
+
+**For Windows 10, look into C:\Windows\System32\winevt\Logs\Microsoft-Windows-Windows Defender%4Operational.evtx
+
+
+| Event ID | Symbolic name | Message |
+|------|------------|------------|
+| 1000 |	MALWAREPROTECTION_SCAN_STARTED |	An antimalware scan started. |
+| 1001 |	MALWAREPROTECTION_SCAN_COMPLETED |	An antimalware scan finished. |
+| 1002 |	MALWAREPROTECTION_SCAN_CANCELLED |	An antimalware scan was stopped before it finished. |
+| 1004 |	MALWAREPROTECTION_SCAN_RESUMED |	An antimalware scan was resumed. |
+| 1005 |	MALWAREPROTECTION_SCAN_FAILED |	An antimalware scan failed. |
+| 1006 |	MALWAREPROTECTION_MALWARE_DETECTED |	The antimalware engine found malware or other potentially unwanted software. |
+| 1007 |	MALWAREPROTECTION_MALWARE_ACTION_TAKEN |	The antimalware platform performed an action to protect your system from malware or other potentially unwanted software. |
+| 1008 |	MALWAREPROTECTION_MALWARE_ACTION_FAILED |	The antimalware platform attempted to perform an action to protect your system from malware or other potentially unwanted software, but the action failed. |
+| 1015 |	MALWAREPROTECTION_BEHAVIOR_DETECTED |	The antimalware platform detected suspicious behavior. |
+| 1116 |	MALWAREPROTECTION_STATE_MALWARE_DETECTED |	The antimalware platform detected malware or other potentially unwanted software. |
+| 1117 |	MALWAREPROTECTION_STATE_MALWARE_ACTION_TAKEN |	The antimalware platform performed an action to protect your system from malware or other potentially unwanted software. |
+| 1118 |	MALWAREPROTECTION_STATE_MALWARE_ACTION_FAILED |	The antimalware platform attempted to perform an action to protect your system from malware or other potentially unwanted software, but the action failed. |
+| 1119 |	MALWAREPROTECTION_STATE_MALWARE_ACTION_CRITICALLY_FAILED |	The antimalware platform encountered a critical error when trying to take action on malware or other potentially unwanted software. There are more details in the event message. |
+| 1120 |	MALWAREPROTECTION_THREAT_HASH |	Windows Defender Antivirus has deduced the hashes for a threat resource. |
+| 1150 |	MALWAREPROTECTION_SERVICE_HEALTHY |	If your antimalware platform reports status to a monitoring platform, this event indicates that the antimalware platform is running and in a healthy state. |
+| 1151 |	MALWAREPROTECTION_SERVICE_HEALTH_REPORT |	Endpoint Protection client health report (time in UTC) |
+| 2000 |	MALWAREPROTECTION_SIGNATURE_UPDATED |	The antimalware definitions updated successfully. |
+| 2001 |	MALWAREPROTECTION_SIGNATURE_UPDATE_FAILED |	The antimalware definition update failed. |
+| 2002 |	MALWAREPROTECTION_ENGINE_UPDATED |	The antimalware engine updated successfully. |
+| 2004 |	MALWAREPROTECTION_SIGNATURE_REVERSION |	There was a problem loading antimalware definitions. The antimalware engine will attempt to load the last-known good set of definitions. |
+| 2010 |	MALWAREPROTECTION_SIGNATURE_FASTPATH_UPDATED |	The antimalware engine used the Dynamic Signature Service to get additional definitions. |
+| 2020 |	MALWAREPROTECTION_CLOUD_CLEAN_RESTORE_FILE_DOWNLOADED |	The antimalware engine downloaded a clean file. |
+| 2021 |	MALWAREPROTECTION_CLOUD_CLEAN_RESTORE_FILE_DOWNLOAD_FAILED |	The antimalware engine failed to download a clean file. |
+| 2040 | MALWAREPROTECTION_OS_EXPIRING |	Antimalware support for this operating system version will soon end. |
+
+
+2020-04-27  https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus#windows-defender-av-ids
