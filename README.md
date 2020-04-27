@@ -197,7 +197,14 @@ https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence
 <p>&nbsp;</p>
 
 ## How Microsoft identifies malware and potentially unwanted applications
-- [Malware](##Malware)
+- [Malware](#Malware)
+-	[Malicious software](#Malicious-software)
+-	[Unwanted software](#Unwanted-software)
+-	[Lack of choice](#Lack-of-choice)
+-	[Lack of control](#Lack-of-control)
+-	[Installation and removal](#Installation-and-removal)
+-	[Advertising and advertisements](#Advertising-and-advertisements)
+-	[Potentially unwanted application (PUA)](#Potentially-unwanted-application-(PUA))
 
 
 ### Malware
@@ -286,3 +293,4 @@ Microsoft uses specific categories and the category definitions to classify soft
 •	Evasion software: Software that actively tries to evade detection by security products, including software that behaves differently in the presence of security products.
 •	Poor industry reputation: Software that trusted security providers detect with their security products. The security industry is dedicated to protecting customers and improving their experiences. Microsoft and other organizations in the security industry continuously exchange knowledge about files we have analyzed to provide users with the best possible protection.
 
+2020-04-27 https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/criteria
