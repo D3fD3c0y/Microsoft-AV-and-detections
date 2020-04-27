@@ -5,6 +5,7 @@
 
 # Table of content
 - [Malware naming convention](#Malware-naming-convention)
+- [How Microsoft identifies malware and potentially unwanted applications](#How-Microsoft-identifies-malware-and-potentially-unwanted-applications)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
