@@ -19,14 +19,14 @@
 
 ## Malware naming convention
 
-•	The format
-•	Type
-•	Platforms
-•	Scripting languages
-•	Macros
-•	Family
-•	Variant letter
-•	Suffixes
+- The format
+- Type
+-	Platforms
+-	Scripting languages
+-	Macros
+-	Family
+-	Variant letter
+-	Suffixes
 
 ### The format
 The format used is the following:
