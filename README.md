@@ -33,7 +33,7 @@ The format used is the following:
 TYPE:Platform/Family.Variant!Suffixes
 
 Example of the format use by Microsoft
-https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/images/namingmalware1.png
+![Image](https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/images/namingmalware1.png)
 
 
 
