@@ -6,8 +6,11 @@
 # Table of content
 - [Malware naming convention](#Malware-naming-convention)
 
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 ## Malware naming convention
@@ -47,7 +50,7 @@ Describes what the malware does on your computer. Worms, viruses, trojans, backd
 -	Program
 -	PWS
 -	Ransom
--•	RemoteAccess
+-	RemoteAccess
 -	Rogue
 -	SettingsModifier
 -	SoftwareBundler
@@ -64,9 +67,6 @@ Describes what the malware does on your computer. Worms, viruses, trojans, backd
 -	VirTool
 -	Virus
 -	Worm
-
-
-
 
 
 ### Platforms
@@ -94,9 +94,6 @@ Indicates the operating system (such as Windows, Mac OS X, and Android) that the
 -	Win98: Windows 98 platform only
 -	WinCE: Windows CE platform
 -	WinNT: WinNT
-
-
-
 
 
 ### Scripting languages
@@ -133,9 +130,6 @@ Indicates the operating system (such as Windows, Mac OS X, and Android) that the
 -	WinREG: Windows registry scripts
 
 
-
-
-
 ### Macros
 -	A97M: Access 97, 2000, XP, 2003, 2007, and 2010 macros
 -	HE: macro scripting
@@ -160,11 +154,14 @@ Indicates the operating system (such as Windows, Mac OS X, and Android) that the
 -	TSQL: MS SQL server files
 -	XML: XML files
 
+
 ### Family
 Grouping of malware based on common characteristics, including attribution to the same authors. Security software providers sometimes use different names for the same malware family.
 
+
 ### Variant letter
 Used sequentially for every distinct version of a malware family. For example, the detection for the variant ".AF" would have been created after the detection for the variant ".AE".
+
 
 ### Suffixes
 Provides extra detail about the malware, including how it is used as part of a multicomponent threat. In the example above, "!lnk" indicates that the threat component is a shortcut file used by Trojan:Win32/Reveton.T.
