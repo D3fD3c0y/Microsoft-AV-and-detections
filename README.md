@@ -7,6 +7,7 @@
 - [Malware naming convention](#Malware-naming-convention)
 - [How Microsoft identifies malware and potentially unwanted applications](#How-Microsoft-identifies-malware-and-potentially-unwanted-applications)
 - [Microsoft Event ID related to MS Windows Defender](#Microsoft-Event-ID-related-to-MS-Windows-Defender)
+- [Understanding Microsoft Malware detail](#Understanding-Microsoft-Malware-detail)
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -337,3 +338,43 @@ Microsoft uses specific categories and the category definitions to classify soft
 
 
 2020-04-27  https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus#windows-defender-av-ids
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+## Understanding Microsoft Malware detection details
+- [Detection Mode](#Detection-Mode)
+-	[Threat actions](#Threat-actions)
+
+### Detection Mode
+| Detection Mode | Description |
+|------|------------|
+| User | User initiated. |
+| System |	System initiated. |
+| Real-time |	Real-time component initiated. |
+| IOAV |	IE Downloads and Outlook Express Attachments initiated. |
+| NIS |	Network inspection system. |
+| IEPROTECT |	IE - IExtensionValidation; this protects against malicious webpage controls. |
+| Early Launch Antimalware (ELAM) |	This includes malware detected by the boot sequence. |
+| Remote attestation |	Remote attestation. |
+
+
+### Threat actions
+| Actions | Description |
+|------|------------|
+| Failed |	Endpoint Protection failed to remediate the malware. Check your logs for details of the error. |
+| Removed |	Endpoint Protection successfully removed the malware. |
+| Quarantined |	Endpoint Protection moved the malware to a secure location and prevented it from running until you remove it or allow it to run. |
+| Cleaned |	The malware was cleaned from the infected file. |
+| Allowed |	An administrative user selected to allow the software that contains the malware to run. |
+| No Action |	Endpoint Protection took no action on the malware. This might occur if the computer is restarted after malware is detected and the malware is no longer detected; for instance, if a mapped network drive on which malware is detected is not reconnected when the computer restarts. |
+| Blocked |	Endpoint Protection blocked the malware from running. This might occur if a process on the computer is found to contain malware. |
+
+Source: https://docs.microsoft.com/en-us/sccm/protect/deploy-use/monitor-endpoint-protection
+Source: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus
+
+
