@@ -33,7 +33,7 @@ The format used is the following:
 TYPE:Platform/Family.Variant!Suffixes
 
 Example of the format use by Microsoft
- 
+https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/images/namingmalware1.png
 
 
 
@@ -194,3 +194,7 @@ Provides extra detail about the malware, including how it is used as part of a m
 -	!rootkit: rootkit component of that malware
 -	@m: worm mailers
 -	@mm: mass mailer worm
+
+
+2020-04-26
+https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/malware-naming
