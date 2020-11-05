@@ -27,13 +27,15 @@
  - [Suffixes](#Suffixes)
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 ### The format
 The format used is the following:
 TYPE:Platform/Family.Variant!Suffixes
 
 Example of the format use by Microsoft
 ![Image](https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/images/namingmalware1.png)
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 ### Type
@@ -70,7 +72,8 @@ Describes what the malware does on your computer. Worms, viruses, trojans, backd
 -	VirTool
 -	Virus
 -	Worm
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Platforms
 Indicates the operating system (such as Windows, Mac OS X, and Android) that the malware is designed to work on. The platform is also used to indicate programming languages and file formats.
@@ -97,7 +100,8 @@ Indicates the operating system (such as Windows, Mac OS X, and Android) that the
 -	Win98: Windows 98 platform only
 -	WinCE: Windows CE platform
 -	WinNT: WinNT
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Scripting languages
 
@@ -131,7 +135,8 @@ Indicates the operating system (such as Windows, Mac OS X, and Android) that the
 -	WinBAT: Winbatch scripts
 -	WinHlp: Windows Help scripts
 -	WinREG: Windows registry scripts
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Macros
 -	A97M: Access 97, 2000, XP, 2003, 2007, and 2010 macros
@@ -156,15 +161,18 @@ Indicates the operating system (such as Windows, Mac OS X, and Android) that the
 -	SWF: Shockwave Flash files
 -	TSQL: MS SQL server files
 -	XML: XML files
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Family
 Grouping of malware based on common characteristics, including attribution to the same authors. Security software providers sometimes use different names for the same malware family.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Variant letter
 Used sequentially for every distinct version of a malware family. For example, the detection for the variant ".AF" would have been created after the detection for the variant ".AE".
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Suffixes
 Provides extra detail about the malware, including how it is used as part of a multicomponent threat. In the example above, "!lnk" indicates that the threat component is a shortcut file used by Trojan:Win32/Reveton.T.
@@ -207,11 +215,13 @@ https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence
 -	[Installation and removal](#Installation-and-removal)
 -	[Advertising and advertisements](#Advertising-and-advertisements)
 -	[Potentially unwanted application (PUA)](#Potentially-unwanted-application-(PUA))
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Malware
 Malware is the overarching name for applications and other code, i.e. software, that Microsoft classifies more granularly as malicious software or unwanted software.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Malicious software
 Malicious software is an application or code that compromises user security. Malicious software might steal your personal information, lock your PC until you pay a ransom, use your PC to send spam, or download other malicious software. In general, malicious software tricks, cheats, or defrauds users, places users in vulnerable states, or performs other malicious activities.
@@ -229,11 +239,13 @@ Microsoft classifies most malicious software into one of the following categorie
 -	Trojan: A type of malware that attempts to appear harmless. Unlike a virus or a worm, a trojan doesn't spread by itself. Instead it tries to look legitimate, tricking users into downloading and installing it. Once installed, trojans perform a variety of malicious activities, such as stealing personal information, downloading other malware, or giving attackers access to your PC.
 -	Trojan clicker: A type of trojan that automatically clicks buttons or similar controls on websites or applications. Attackers can use this trojan to click on online advertisements. These clicks can skew online polls or other tracking systems and can even install applications on your PC.
 -	Worm: A type of malware that spreads to other PCs. Worms can spread through email, instant messaging, file sharing platforms, social networks, network shares, and removable drives. Sophisticated worms take advantage of software vulnerabilities to propagate.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Unwanted software
 Microsoft believes that you should have control over your Windows experience. Software running on Windows should keep you in control of your PC through informed choices and accessible controls. Microsoft identifies software behaviors that ensure you stay in control. We classify software that does not fully demonstrate these behaviors as "unwanted software".
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Lack of choice
 You must be notified about what is happening on your PC, including what software does and whether it is active.
@@ -250,7 +262,8 @@ Software must not mislead or coerce you into making decisions about your PC. Thi
 -	Display claims in an alarming manner about your PC's health and require payment or certain actions in exchange for fixing the purported issues.
 Software that stores or transmits your activities or data must:
 -	Give you notice and get consent to do so. Software should not include an option that configures it to hide activities associated with storing or transmitting your data.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Lack of control
 You must be able to control software on your computer. You must be able to start, stop, or otherwise revoke authorization to software.
@@ -260,6 +273,8 @@ Software that exhibits lack of control might:
 -	Redirect web traffic without giving notice and getting consent.
 -	Modify or manipulate webpage content without your consent.
 Software that changes your browsing experience must only use the browser's supported extensibility model for installation, execution, disabling, or removal. Browsers that do not provide supported extensibility models will be considered non-extensible and should not be modified.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Installation and removal
 You must be able to start, stop, or otherwise revoke authorization given to software. Software should obtain your consent before installing, and it must provide a clear and straightforward way for you to install, uninstall, or disable it.
@@ -267,7 +282,8 @@ Software that delivers poor installation experience might bundle or download oth
 Software that delivers poor removal experience might:
 -	Present confusing or misleading prompts or pop-ups while being uninstalled.
 -	Fail to use standard install/uninstall features, such as Add/Remove Programs.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Advertising and advertisements
 Software that promotes a product or service outside of the software itself can interfere with your computing experience. You should have clear choice and control when installing software that presents advertisements.
@@ -281,7 +297,8 @@ Advertisements shown to you must:
 -	Not mislead, deceive, or confuse.
 -	Not contain malicious code.
 -	Not invoke a file download.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Potentially unwanted application (PUA)
 PUA protection aims to safeguard user productivity and ensure enjoyable Windows experiences. This optional protection, available to enterprises, helps deliver more productive, performant, and delightful Windows experiences.
@@ -351,6 +368,8 @@ Microsoft uses specific categories and the category definitions to classify soft
 
 - [Detection Mode](#Detection-Mode)
 -	[Threat actions](#Threat-actions)
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Detection Mode
 | Detection Mode | Description |
@@ -363,7 +382,8 @@ Microsoft uses specific categories and the category definitions to classify soft
 | IEPROTECT |	IE - IExtensionValidation; this protects against malicious webpage controls. |
 | Early Launch Antimalware (ELAM) |	This includes malware detected by the boot sequence. |
 | Remote attestation |	Remote attestation. |
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Threat actions
 | Actions | Description |
