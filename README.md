@@ -25,7 +25,8 @@
  - [Family](#Family)
  - [Variant letter](#Variant-letter)
  - [Suffixes](#Suffixes)
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ### The format
 The format used is the following:
 TYPE:Platform/Family.Variant!Suffixes
